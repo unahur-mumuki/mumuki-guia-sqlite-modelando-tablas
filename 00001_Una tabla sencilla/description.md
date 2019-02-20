@@ -5,6 +5,6 @@ CREATE TABLE Infraccion (
   cantidadPuntosDescontados int DEFAULT 0,
   monto decimal NOT NULL,
   observacion varchar(255)
-)
+);
 ```
 

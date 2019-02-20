@@ -1,28 +1,6 @@
 <div
   class='mu-erd'
   data-entities='{
-    "semilla": {
-      "id": {
-        "type": "Integer",
-        "pk": true
-      },
-      "nombre": {
-        "type": "Text"
-      },
-      "anio": {
-        "type": "Integer"
-      },
-      "toleraSombra": {
-        "type": "Boolean"
-      },
-      "id_origen": { 
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "origen", "column": "id" },
-          "type": "many_to_one"
-        }
-      }
-    },
     "origen": {
       "id": {
         "type": "Integer",
@@ -38,6 +16,28 @@
         "type": "Integer"
       }
     },
+    "semilla": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre": {
+        "type": "Text"
+      },
+      "anio": {
+        "type": "Integer"
+      },
+      "tolera_sombra": {
+        "type": "Boolean"
+      },
+      "origen_id": { 
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "origen", "column": "id" },
+          "type": "many_to_one"
+        }
+      }
+    },    
     "planta": {
       "id": {
         "type": "Integer",
@@ -46,15 +46,51 @@
       "observaciones": {
         "type": "Text"
       },
-      "fechaSiembra": {
+      "fecha_siembra": {
         "type": "Date"
       },
       "semilla_id": {
+        "type": "Integer",
         "fk": {
           "to": { "entity": "semilla", "column": "id" },
           "type": "many_to_one"
         }
       }
-    }
+    },
+    "responsable": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre": {
+        "type": "Text"
+      },
+      "edad": {
+        "type": "Integer"
+      }
+    },
+    "planta_responsable": {
+      "planta_id": {
+        "type": "Integer",
+        "pk": true,
+        "fk": {
+          "to": { "entity": "planta", "column": "id" },
+          "type": "many_to_one"
+        }
+      },
+      "responsable_id": {
+        "type": "Integer",
+        "pk": true,
+        "fk": {
+          "to": { "entity": "responsable", "column": "id" },
+          "type": "many_to_one"
+        }        
+      }
+    }     
   }'>
 </div>
+
+**Valores por defecto**:
+
+* Fecha 21/09/2019 en `fecha_siembra` de Planta.
+* Edad 18 en Responsable.

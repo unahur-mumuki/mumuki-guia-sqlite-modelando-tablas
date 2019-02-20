@@ -1,5 +1,5 @@
 - type: final_dataset
-  final: INSERT INTO Estudiante VALUES (1, 8.5, "¡Gran progreso! Te faltó terminar de entender el COUNT.", 15), (2, 4, "Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día.", 3), (3, 10, NULL, 7); SELECT * FROM Infraccion;
+  final: INSERT INTO Estudiante VALUES (1, 8.5, "¡Gran progreso! Te faltó terminar de entender el COUNT.", 15), (2, 4, "Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día.", 3), (3, 10, NULL, 7); SELECT * FROM Estudiante;
   expected: |
     id|calificacion|observacion|estudiante_id
     1|8.5|¡Gran progreso! Te faltó terminar de entender el COUNT.|15

@@ -1,0 +1,1 @@
+> Ahora te toca a vos: escribí la sentencia SQL necesaria para crear la tabla Infraccion.

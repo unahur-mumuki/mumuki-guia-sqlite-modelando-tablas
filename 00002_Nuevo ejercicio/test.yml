@@ -1,0 +1,7 @@
+- type: final_dataset
+  final: INSERT INTO Infraccion VALUES (1, 0, 1500.80, "Estacionamiento en lugar no permitido"), (2, 5, 3500.75, "Exceso de velocidad por encima de los 30 km/h"); SELECT * FROM Infraccion;
+  # Supongamos que el ejercicio pide insertar 'dato 3'
+  expected: |
+    id|cantidadPuntosDescontados|monto|observacion
+    1|0|1500.80|"Estacionamiento en lugar no permitido"
+    2|5|3500.75|"Exceso de velocidad por encima de los 30 km/h"

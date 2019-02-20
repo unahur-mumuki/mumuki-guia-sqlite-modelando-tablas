@@ -1,0 +1,9 @@
+---
+name: Modelando tablas
+locale: es
+type: learning
+beta: false
+language: sqlite
+id_format: "%05d"
+order: []
+private: false

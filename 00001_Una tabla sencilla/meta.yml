@@ -4,6 +4,6 @@ layout: input_right
 editor: code
 type: problem
 extra_visible: false
-manual_evaluation: true
+manual_evaluation: false
 choices: []
 name: Una tabla sencilla

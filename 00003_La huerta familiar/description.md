@@ -9,6 +9,9 @@
       "nombre": {
          "type": "Text"
       },
+      "pais": {
+        "type": "Text"
+      }
       "latitud": {
         "type": "Integer"
       },
@@ -94,3 +97,9 @@
 
 * Fecha 21/09/2019 en `fecha_siembra` de Planta.
 * Edad 18 en Responsable.
+
+**Consultas**:
+
+* Responsables menores de 18 años de las plantas de cualquier variedad de cacao. Pista: el nombre de la semilla tiene que contener el texto "cacao".
+* Plantas que no toleran sombra, sembradas en los ultimos 6 meses.
+* Nombre y origen de las tres semillas más utilizadas (o sea, las que más plantas tienen).

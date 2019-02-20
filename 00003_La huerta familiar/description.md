@@ -26,7 +26,16 @@
     "origen": {
       "id": {
         "type": "Integer",
-        "pk": true,
+        "pk": true
+      },
+      "nombre": {
+         "type": "Text"
+      },
+      "latitud": {
+        "type": "Integer"
+      },
+      "longitud": {
+        "type": "Integer"
       }
     }
   }'>

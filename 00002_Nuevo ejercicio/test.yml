@@ -3,5 +3,5 @@
   expected: |
     id|calificacion|observacion|estudiante_id
     1|8.5|¡Gran progreso! Te faltó terminar de entender el COUNT.|15
-    2|4|Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día|3
+    2|4|Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día.|3
     3|10||7

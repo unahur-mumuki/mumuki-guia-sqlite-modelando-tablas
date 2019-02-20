@@ -37,6 +37,24 @@
       "longitud": {
         "type": "Integer"
       }
+    },
+    "planta": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "observaciones": {
+        "type": "Text"
+      },
+      "fechaSiembra": {
+        "type": "Date"
+      },
+      "semilla_id": {
+        "fk": {
+          "to": { "entity": "semilla", "column": "id" },
+          "type": "many_to_one"
+        }
+      }
     }
   }'>
 </div>

@@ -11,7 +11,7 @@
       },
       "pais": {
         "type": "Text"
-      }
+      },
       "latitud": {
         "type": "Integer"
       },
@@ -100,6 +100,6 @@
 
 **Consultas**:
 
-* Responsables menores de 18 años de las plantas de cualquier variedad de cacao. Pista: el nombre de la semilla tiene que contener el texto "cacao".
-* Plantas que no toleran sombra, sembradas en los ultimos 6 meses.
-* Nombre y origen de las tres semillas más utilizadas (o sea, las que más plantas tienen).
+* Nombre y edad de los responsables menores de 18 años de las plantas de cualquier variedad de cacao. Pista: el nombre de la semilla tiene que contener el texto "cacao".
+* Plantas que no toleran sombra, sembradas en los ultimos 6 meses. Mostrar el nombre de la planta, el país de origen y la fecha de siembra.
+* Nombre y lugar de origen de las tres semillas más utilizadas (o sea, las que más plantas tienen).

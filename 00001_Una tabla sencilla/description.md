@@ -1,10 +1,10 @@
 
 ```sql
 CREATE TABLE Infraccion (
-  id int(10) NOT NULL PRIMARY KEY,
-  cantidadPuntosDescontados tinyint(3) DEFAULT NULL,
-  monto decimal(8,2) NOT NULL,
-  observacion varchar(255) DEFAULT NULL
+  id int NOT NULL PRIMARY KEY,
+  cantidadPuntosDescontados int DEFAULT 0,
+  monto decimal NOT NULL,
+  observacion varchar(255)
 )
 ```
 

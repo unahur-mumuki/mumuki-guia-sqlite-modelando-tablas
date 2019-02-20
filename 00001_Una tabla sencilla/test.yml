@@ -6,5 +6,5 @@ seed: |
     monto decimal(8,2) NOT NULL,
     observacion varchar(255) DEFAULT NULL
   );
-  INSERT INTO Infraccion VALUES (1, 0, 1500, "Estacionamiento en lugar no permitido"), (2, 5, 3500, "Exceso de velocidad por encima de los 30 km/h");
+  INSERT INTO Infraccion VALUES (1, 0, 1500.80, "Estacionamiento en lugar no permitido"), (2, 5, 3500.75, "Exceso de velocidad por encima de los 30 km/h");
 query: SELECT * FROM Infraccion;

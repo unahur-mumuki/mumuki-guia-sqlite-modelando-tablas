@@ -1,6 +1,7 @@
 - type: final_dataset
-  final: INSERT INTO Infraccion VALUES (1, 0, 1500.8, "Estacionamiento en lugar no permitido"), (2, 5, 3500.75, "Exceso de velocidad por encima de los 30 km/h"); SELECT * FROM Infraccion;
+  final: INSERT INTO Estudiante VALUES (1, 8.5, "¡Gran progreso! Te faltó terminar de entender el COUNT.", 15), (2, 4, "Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día.", 3), (3, 10, NULL, 7); SELECT * FROM Infraccion;
   expected: |
-    id|cantidadPuntosDescontados|monto|observacion
-    1|0|1500.8|Estacionamiento en lugar no permitido
-    2|5|3500.75|Exceso de velocidad por encima de los 30 km/h
+    id|calificacion|observacion|estudiante_id
+    1|8.5|¡Gran progreso! Te faltó terminar de entender el COUNT.|15
+    2|4|"Al filo de la desaprobación. Charlemos la clase que viene para que te pongas al día"|3
+    3|10|NULL|7

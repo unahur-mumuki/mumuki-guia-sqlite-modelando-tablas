@@ -6,10 +6,10 @@
         "type": "Integer",
         "pk": true
       },
-      "nombre": {
+      "nombre *": {
          "type": "Text"
       },
-      "pais": {
+      "pais *": {
         "type": "Text"
       },
       "latitud": {
@@ -24,13 +24,13 @@
         "type": "Integer",
         "pk": true
       },
-      "nombre": {
+      "nombre *": {
         "type": "Text"
       },
-      "anio": {
+      "anio *": {
         "type": "Integer"
       },
-      "tolera_sombra": {
+      "tolera_sombra *": {
         "type": "Boolean"
       },
       "origen_id": { 
@@ -49,7 +49,7 @@
       "observaciones": {
         "type": "Text"
       },
-      "fecha_siembra": {
+      "fecha_siembra *": {
         "type": "Date"
       },
       "semilla_id": {
@@ -65,10 +65,10 @@
         "type": "Integer",
         "pk": true
       },
-      "nombre": {
+      "nombre *": {
         "type": "Text"
       },
-      "edad": {
+      "edad *": {
         "type": "Integer"
       }
     },
@@ -93,6 +93,8 @@
   }'>
 </div>
 
+Las columnas marcadas con un asterisco (*) son obligatorias, contemplarlo en el script de creación.
+
 **Valores por defecto**:
 
 * Fecha 21/09/2019 en `fecha_siembra` de Planta.
@@ -100,6 +102,6 @@
 
 **Consultas**:
 
-* Nombre y edad de los responsables menores de 18 años de las plantas de cualquier variedad de cacao. Pista: el nombre de la semilla tiene que contener el texto "cacao".
+* Nombre y edad de los y las responsables menores de 18 años de las plantas de cualquier variedad de cacao. Pista: el nombre de la semilla tiene que contener el texto "cacao".
 * Plantas que no toleran sombra, sembradas en los ultimos 6 meses. Mostrar el nombre de la planta, el país de origen y la fecha de siembra.
 * Nombre y lugar de origen de las tres semillas más utilizadas (o sea, las que más plantas tienen).

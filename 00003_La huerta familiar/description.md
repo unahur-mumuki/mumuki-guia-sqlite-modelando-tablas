@@ -150,7 +150,7 @@ insert into responsable (nombre, edad) values
   ("Manuela Pérez", 17),
   ("Carolina Villegas", 25);
 
-insert into huerta.planta_responsable (planta_id,responsable_id) values
+insert into planta_responsable (planta_id, responsable_id) values
   (1, 1),
   (1, 2),
   (1, 4),

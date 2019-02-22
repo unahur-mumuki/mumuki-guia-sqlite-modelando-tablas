@@ -106,6 +106,6 @@
 
 **Consultas**:
 
-* Nombre y edad de los y las responsables menores de 18 años de las plantas de cualquier variedad de zapallo. Pista: el nombre de la semilla tiene que contener el texto "zapallo".
+* Nombre, edad y cantidad de plantas a cargo de los y las responsables mayores de 18 años de las plantas de cualquier variedad de zapallo. Pista: el nombre de la semilla tiene que contener el texto "zapallo".
 * Plantas que no toleran sombra, sembradas en los ultimos 2 meses. Mostrar el nombre de la planta, el país de origen y la fecha de siembra.
 * Nombre y lugar de origen de las tres semillas más utilizadas (o sea, las que más plantas tienen).

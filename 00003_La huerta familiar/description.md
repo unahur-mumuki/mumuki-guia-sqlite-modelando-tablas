@@ -93,7 +93,10 @@
   }'>
 </div>
 
-Las columnas marcadas con un asterisco (*) son obligatorias, contemplarlo en el script de creación.
+**Aclaraciones**
+
+* Las columnas marcadas con un asterisco (*) son obligatorias, contemplarlo en el script de creación.
+* Utilizar `AUTO_INCREMENT` en todas las claves primarias, excepto la de `planta_responsable` que es compuesta.
 
 **Valores por defecto**:
 

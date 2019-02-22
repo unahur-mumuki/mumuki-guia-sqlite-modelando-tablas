@@ -114,16 +114,16 @@
 
 ```sql
 insert into origen (nombre, pais) values
-  ("INTA Castelar", "Argentina"),
-  ("Granja Ecológica Ventilla", "Bolivia"),
-  ("Morón SurCo", "Argentina");
+  ('INTA Castelar', 'Argentina'),
+  ('Granja Ecológica Ventilla', 'Bolivia'),
+  ('Morón SurCo', 'Argentina');
 
 insert into semilla (nombre, anio, tolera_sombra, origen_id) values
-  ("Zapallo Anco", 2017, false, 1),
-  ("Zapallo Kabutia", 2018, false, 1),
-  ("Zapallo Plomo", 2019, false, 3),
-  ("Quirquiña", 2018, true, 2),
-  ("Espinaca", 2016, true, 2);
+  ('Zapallo Anco', 2017, false, 1),
+  ('Zapallo Kabutia', 2018, false, 1),
+  ('Zapallo Plomo', 2019, false, 3),
+  ('Quirquiña', 2018, true, 2),
+  ('Espinaca', 2016, true, 2);
 
 insert into planta (fecha_siembra, semilla_id) values
   (NOW(), 1),
@@ -144,11 +144,11 @@ insert into planta (fecha_siembra, semilla_id) values
   (SUBDATE(NOW(), 70), 5);
 
 insert into responsable (nombre, edad) values
-  ("Pacho Gangotena", 72),
-  ("Maritza Rubio", 60),
-  ("Andrés Carrasco", 68),
-  ("Manuela Pérez", 17),
-  ("Carolina Villegas", 25);
+  ('Pacho Gangotena', 72),
+  ('Maritza Rubio', 60),
+  ('Andrés Carrasco', 68),
+  ('Manuela Pérez', 17),
+  ('Carolina Villegas', 25);
 
 insert into planta_responsable (planta_id, responsable_id) values
   (1, 1),

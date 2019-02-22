@@ -13,10 +13,10 @@
         "type": "Text"
       },
       "latitud": {
-        "type": "Integer"
+        "type": "Decimal"
       },
       "longitud": {
-        "type": "Integer"
+        "type": "Decimal"
       }
     },
     "semilla": {

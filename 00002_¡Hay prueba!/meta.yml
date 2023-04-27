@@ -1,9 +1,11 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: code
 type: problem
 extra_visible: false
 manual_evaluation: false
+progressive_expectations: false
 choices: []
 name: "¡Hay prueba!"
